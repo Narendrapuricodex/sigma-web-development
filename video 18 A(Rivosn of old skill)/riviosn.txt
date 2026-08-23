@@ -1,0 +1,118 @@
+#video 1: (html strucre intro and basic info gethring and boiler tamplate)
+
+isme hamne hello world program likha tha. aur sikha tha ki ak html name ka main tag hota hai jisme body and head do tags hote hai. title me website ka name likha jata hai. 
+
+
+# video 2(first time code likha)
+
+here we learnt link tag, and script tag. link tag hamesha niche ki traf head me aur script tag body ke end me add kiya jata hai. iske alwa yaha hamne firstly hello world test code likha tha. 
+
+# video 3 (mobile preview)
+
+isme hamne dekh tha ki ham kaise ham apne code ko mobile wifi though previw kar skte hai. 
+
+# video 4(heading,anchor and para tags):
+
+isme hamne heading h1-6 tags aur para(p) tag sikha. iske alwa ak bookmark project bhi build kiya tha a tag ki help se we kept some a tags in para. 
+
+# video 5. (img,table,list,ol,ul):
+
+(i).  <img src="1.png" alt="sun" width="400" height="400"> used this tag for img
+
+(ii). table tag me caption add kiya. tr me th and td use kiya td me row span and col sapn use sikha in table data. 
+
+(iii). ol list me type attribute use krna sikha. 
+
+(iv). ul me items add kiye syatax: ol>li>data</li</ol (same syantax ul ka hai)
+
+# video 6. (seo concept)
+
+seo ranking sikhi meta decription tag sikha. 
+
+# video 7. (forms and input tag):
+
+(i). form tag sikha jisme hamne alag alag input types sikhe jaise:
+
+<input type="text" name="username" id="username" , placeholder="Enter your username">
+
+"input lena with type text name and id alag alag ho sakti hai same bhi placeholder jagh gherta hai. 
+
+
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" value="male">
+
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female">
+
+
+isme label is for labling and input type radio. 
+
+
+# video 8. (elements type)
+
+""""Block Element"""
+
+Element,Description/Use
+<div>,Ye ek generic container hai jo dusre elements ko group karne ke kaam aata hai.
+<h1> - <h6>,Headings ke liye use hote hain (<h1> sabse bada aur <h6> sabse chhota).
+<p>,Paragraphs likhne ke liye use hota hai.
+<ul> / <ol> / <li>,Lists (bulleted ya numbered) banane ke liye.
+<header> / <footer>,Page ke top ya bottom section ko define karne ke liye.
+<section> / <article>,Content ko alag-alag hisson mein divide karne ke liye.
+
+Inline Elements:
+
+Element,Description/Use
+<span>,Text ke kisi specific hisse ko style karne ya group karne ke liye container.
+<a>,Hyperlinks banane ke liye (ek page se dusre page par jane ke liye).
+<img>,Page par images dikhane ke liye.
+<strong> / <b>,Text ko bold (important) dikhane ke liye.
+<em> / <i>,Text ko italicize karne ke liye.
+<button>,Clickable button banane ke liye.
+
+# video 9. (class and id concept)
+
+here we learnt id and classes of css and we learn diffrence in both class common aur id specific hoti hai id ko prefrence di jyagi conficlt me 
+
+iske alwa .classname se class create ki jaati hai wahi #idname se id. 
+
+# video 10:(video,audio,iframe)
+
+isme hamne video audio and iframe tag sikha  iske alwa svg se ak gola banaya. 
+
+# video 11: (seamtic tags(nav,header,main,footer))
+
+navigation banna header main footer me code divoson karke likhna. jisme footer me links and other content diye jaatein hai whi main me main content and header 
+
+# video 12: (exercise):
+
+"i build an media player, using audio and video tags. 
+
+# video 13: (Entities,code and others):
+
+mainly isme nbsp,copy,and pre jaise tags hai jinka use hota hai spacing creae karne ke liye wahi code tag ka use ham code likhne ke liye karte hai. 
+
+# video 14: (intro to css)
+
+isme maine infile css likhi using style tag maine isme ak id aur class banayi. iske alwa colr and background clolor attribute ka use kiya. 
+
+
+video 15. (css) 
+isme inline and infile code likha for css. 
+
+video 16. (exercise solution):
+
+
+video 17: (slecters)
+
+univrsal: *{}
+class: .classname{}
+child: parentname > child name{}
+psudo: a:visted{}
+
+video 18: 
+
+isme 4 files hai jisme txt file me riviosn kiya gaya. aur html,css and js file ki help se ak project banaya jayega jise wrting practice + rivison ho jaaye taaki ham video 18 se aage sigma web dovlepment cource ko continue kar sake. 
+
+
+

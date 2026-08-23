@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selecters</title>
+    <style>
+        /* this is element selecter */
+        /* div{
+            background-color: red;
+        } */
+
+        /* class selecter */
+        .red{
+            background-color: red;
+        }
+
+        /* id selcter  */
+        #green{
+            color: green;
+        }
+
+        /* child selecter */
+        div > p{
+            background-color: green;
+        }
+
+        /* univrisal */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* psudo */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            color: blue;
+            /* background-color: blue; */
+        }
+
+        div:hover{
+            background-color: yellow;
+        }
+
+        p:first-child{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="red" id="green">Element selecter</div>
+    <div id="green">this is id</div>
+
+    <div>
+        <p>hey im para from div</p>
+        <h5>hey i am hading from div</h5>
+    </div>
+
+    <article>
+        <div><p>hey i am para of div inside <article></article></p></div>
+    </article>
+
+    <a href="https://google.com">google visited</a>
+    
+</body>
+</html>

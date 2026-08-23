@@ -1,0 +1,6 @@
+Video attributes:
+src: for sourcing
+autoplay
+loop
+poster
+muted

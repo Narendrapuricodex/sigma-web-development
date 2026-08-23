@@ -1,0 +1,19 @@
+""""Block Element"""
+
+Element,Description/Use
+<div>,Ye ek generic container hai jo dusre elements ko group karne ke kaam aata hai.
+<h1> - <h6>,Headings ke liye use hote hain (<h1> sabse bada aur <h6> sabse chhota).
+<p>,Paragraphs likhne ke liye use hota hai.
+<ul> / <ol> / <li>,Lists (bulleted ya numbered) banane ke liye.
+<header> / <footer>,Page ke top ya bottom section ko define karne ke liye.
+<section> / <article>,Content ko alag-alag hisson mein divide karne ke liye.
+
+Inline Elements:
+
+Element,Description/Use
+<span>,Text ke kisi specific hisse ko style karne ya group karne ke liye container.
+<a>,Hyperlinks banane ke liye (ek page se dusre page par jane ke liye).
+<img>,Page par images dikhane ke liye.
+<strong> / <b>,Text ko bold (important) dikhane ke liye.
+<em> / <i>,Text ko italicize karne ke liye.
+<button>,Clickable button banane ke liye.
