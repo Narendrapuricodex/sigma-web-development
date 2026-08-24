@@ -1,0 +1,8 @@
+Element  selecters 
+class selecters 
+id selecters 
+child selecters 
+decent selecters 
+univrsal selecters 
+psudo selecters 
+first child selecters 

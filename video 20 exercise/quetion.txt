@@ -1,0 +1,2 @@
+hame 1 div tag me 6 para add karne hai aur un para me se first child ko red color dena hai
+rule: do not touch html for style
