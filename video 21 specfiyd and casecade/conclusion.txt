@@ -1,0 +1,13 @@
+1. postion: sabse last wale ko priority di jayegi if last me hai same class/id/attribute
+2. important ---> inline ---> id,attribute,class ---> specfic
+3. origin: browser user agent style banata hai jise aap file se replace kar sakte hai. 
+4.  calculation:
+    * universal: 0
+    * element slecter: 1
+    * class,attribute and psudo-closer: 10
+    * id slecter: 100
+    * inline: 1000
+    * important: 10,000
+
+
+5. specficicty calculation add karke ki jaati hai. 
