@@ -109,6 +109,9 @@ univrsal: *{}
 class: .classname{}
 child: parentname > child name{}
 psudo: a:visted{}
+id: #{}
+attribute name{}
+
 
 video 18: 
 

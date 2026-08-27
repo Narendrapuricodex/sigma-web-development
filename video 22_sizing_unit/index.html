@@ -1,0 +1,73 @@
+<!-- (vw,vh,vmin,vmax,rem,em) -->
+ <!-- https:developer.mozila.org/en-US/docs/Web/CSS/CSS_Values_and_Units  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <style>
+        html{
+            font-size: 16px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* text-align: center; */
+            /* width: 233px; */
+
+            /* vw is an size unit which means view port width of your pc */
+            width: 80vw;
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container{
+            border: 2px solid black;
+            /* To fix side scroll bar  */
+            box-sizing: border-box;
+            /* margin: 250px 2px; */
+            margin: 25px auto;
+            background-color: blue;
+
+            /* for set the height */
+            height: 80vh;
+            
+        }
+
+        article{
+            font-size: 2rem;
+        }
+
+        .container p{
+            font-size: 2em;
+        }
+
+        .mycount{
+            color: yellow;
+            font-size: 26px;
+            border: 2px solid red;
+            background-color: greenyellow;
+            width: 100vmin;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">This Is A Box</div>
+    <span class="box">This is Span</span>
+    <div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste sit, sint beatae reprehenderit deleniti officiis, sed, recusandae est cum obcaecati voluptate impedit facere. Corrupti aperiam ducimus nesciunt laudantium voluptatum dolorum. Itaque atque reiciendis asperiores</p></div>
+
+    <!-- isko milne wali defined size ko multply me badhane aur ghatane ke liye "em" ka use hota hai. 1.5 em = defiend/system computed value ka 1.5 -->
+
+    <article>hey this is for rem</article>
+
+    <div class="mycount">Hey I am Another Container</div>
+
+</body>
+</html>

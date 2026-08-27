@@ -1,5 +1,5 @@
 1. postion: sabse last wale ko priority di jayegi if last me hai same class/id/attribute
-2. important ---> inline ---> id,attribute,class ---> specfic
+2. important ---> inline ---> id --> attribute,class ---> specfic
 3. origin: browser user agent style banata hai jise aap file se replace kar sakte hai. 
 4.  calculation:
     * universal: 0
