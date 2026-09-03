@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Postion Property</title>
+    <style>
+
+        /* transform,filters, and prespective property can behave like postioned */
+        .box {
+            margin: 0;
+            padding: 0;
+            border: 2px solid black;
+            height: 100px; 
+            width: 80vw;
+
+
+        }
+
+        .box1 {
+            background-color: red;            
+            position: sticky;
+            top: 2px;
+            margin: 0px;
+            padding: 0px;
+
+
+
+
+        }
+
+        .box2 {
+            background-color: blue;
+            margin: 2px;
+            /* position: relative; */
+            top: 10px;
+            left: 34px;
+        }
+
+        .box3 {
+            background-color: green;
+            position: fixed;
+            top: 500px;
+            left: 204px;
+
+            
+             /* position: relative;
+            z-index: 1;  */
+        }
+
+        .box4 {
+            background-color: aqua;
+            margin: 2px;
+            /* position: absolute; */
+            /* top: 0px; */
+        }
+
+        .parent{
+            border: 2px solid green;
+            margin: 20px;
+            padding: 20px;
+            height: 2000px;
+            /* position: relative; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+
+</html>
+
