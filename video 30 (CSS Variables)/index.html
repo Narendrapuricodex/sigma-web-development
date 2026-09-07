@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --mycolor: rgb(159, 83, 83);
+            --myborder: 2px solid rgb(82, 54, 54);
+        }
+
+        .box1{
+            color: var(--mycolor);
+            border: var(--myborder);
+        }
+
+        .box2{
+            --mycolor: blue;
+            --myborder: 2px solid green;
+
+            border: var(--myborder);
+            color: var(--mycolor);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Hello I am div. mera color and border global varrible se aa raha hai
+    </div>
+
+    <div class="box2">
+        hey i am div 2 mera color local variable se aa raha hai
+    </div>
+</body>
+</html>

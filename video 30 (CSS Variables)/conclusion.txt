@@ -1,0 +1,1 @@
+local and global dono type ke varibles create kiye ja sakte hai. jisme local varibles global varribles ko overwrite kar sakta hai iska use ham karege taaki future me url se color mangvana backend sync easy ho jaaye. 
