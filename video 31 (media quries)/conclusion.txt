@@ -1,0 +1,3 @@
+1. media rule css 2 me suru hui jo css 3 me update hokar css media quaries ban gayi iska use ham responsive websites bananne ke liye karte hai. 
+
+2. isme media screen and px condtion,portirat,landscape jaise 3 options hai. 
