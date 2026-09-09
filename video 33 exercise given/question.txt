@@ -1,0 +1,13 @@
+1. ak navbar desgin karnna hai.
+
+2. nav bar desgin karne ke baad ak stylesheet bananai hai. 
+
+3. jisme harry sir ak varrible change karege. iska matlb yah ki hame kuchh global varribels bananne hai. 
+
+4. un global varribeles se hamare color ka contranst change hoga. 
+
+5. hame ak multicolor nav bar banana hai. aur ham yah kar sakte hai simply css varrbiles ka use karke. 
+
+6. based on video number 30. 
+
+# concluison of statments: ak multicolor nav bar banani hai. ak alag style sheet file banai hai. global varrbile concpts ka use karna hai.
