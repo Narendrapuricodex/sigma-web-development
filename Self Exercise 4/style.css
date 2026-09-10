@@ -1,0 +1,48 @@
+:root{
+    --primary_color: rgb(10, 179, 27);
+    --nav_color: rgb(65, 30, 155);
+    
+
+}
+
+*{margin: 0;
+
+}
+
+nav{
+    background-color: var(--nav_color);
+     position: fixed;
+     width: 100vw;
+     height: 50px;
+     
+     
+}
+
+ul{
+    display:flex;
+    color: var(--primary_color);
+    height: 50px;
+   
+
+}
+
+ul > li{
+    padding-top: 8px;
+    list-style: none;
+    padding-left: 10vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    
+}
+
+ul > li:hover{
+    color: red
+}
+ul > li:active{
+    color: gree;
+
+}
+
+
+footer{
+    padding-top: 50px;
+}
