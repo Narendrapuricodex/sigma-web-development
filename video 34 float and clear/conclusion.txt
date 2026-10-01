@@ -1,0 +1,2 @@
+float:- kisi img,video,other tag ko left ya right me float karna.
+clear:- kisi left ya right floated element ko specific element se dur karna/hatana
