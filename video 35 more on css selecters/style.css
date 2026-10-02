@@ -1,0 +1,17 @@
+.boxes *{
+  background-color: red;
+}
+
+
+.box:first-child{
+  color: green;
+}
+
+[data-color="primary"]{
+  background-color: aqua;
+}
+
+p,article,div{
+  text-align: center;
+}
+

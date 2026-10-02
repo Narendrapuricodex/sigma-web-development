@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multicolor Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        :root {
+            /* Change these variables to change the theme color */
+            --primary-color: blueviolet; 
+            --secondary-color: #f4e3ff; /* Lighter shade for body background */
+            --text-color: white;
+        }
+
+        body {
+            background-color: var(--secondary-color);
+        }
+
+        nav {
+            background-color: var(--primary-color);
+        }
+
+        ul {
+            padding: 12px 0;
+            text-align: left; /* Center or left align as needed */
+        }
+
+        ul li {
+            display: inline;
+            list-style: none;
+            padding: 0 23px;
+        }
+
+        ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

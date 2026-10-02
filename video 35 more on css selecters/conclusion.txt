@@ -1,0 +1,24 @@
+CSS Selectors Summary (Sigma Web Development Course - Tutorial #35)
+===================================================================
+
+1. Positional Pseudo-classes
+----------------------------
+- :first-child      : Targets an element if it is the first child of its parent container.
+- :nth-child(even)  : Targets even-numbered child elements (2nd, 4th, 6th, etc.).
+- :nth-child(odd)   : Targets odd-numbered child elements (1st, 3rd, 5th, etc.).
+- :nth-last-child(n): Targets elements counting from the end of the parent container upwards.
+
+2. Universal & Attribute Selectors
+----------------------------------
+- Universal (*)           : Combined with parent selectors (e.g., .boxes *) to target all descendant elements within a container.
+- Attribute ([attr=val])  : Targets elements matching specific attributes and values (e.g., [data-color="primary"]).
+- Grouping Selectors (,)  : Combines multiple selectors with commas (e.g., p, h1, .box) to apply common styles.
+
+3. Pseudo-elements
+------------------
+- ::before      : Inserts dynamic content before an element's main content using CSS 'content'.
+- ::after       : Inserts dynamic content after an element's main content using CSS 'content'.
+- ::first-line  : Styles the first line of text as rendered on the user's screen.
+- ::first-letter: Styles the first letter of a text block (useful for drop caps).
+- ::selection   : Customizes background and text colors when text is highlighted/selected by the user.
+- ::placeholder : Styles the placeholder text inside HTML <input> fields.
