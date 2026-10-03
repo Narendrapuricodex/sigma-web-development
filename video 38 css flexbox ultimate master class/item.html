@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Item Properties Of flex Box</title>
-    <style></style>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: flex;
+            gap: 5px;
+            height: 40vh;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .item{
+            height: 32px;
+            width: 32px;
+            background-color: blue;
+            border: 2px solid red;
+            flex-shrink: 1;
+            /* flex-grow: 1; */
+            
+        }
+        .order-1{
+            background-color: green;
+            /* flex-grow: 2; */
+            flex-shrink: 2;
+            align-self: baseline;
+            
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <div class="item"></div>
+        <div class="item order-1"></div>
         <div class="item"></div>
         <div class="item"></div>
         <div class="item"></div>
