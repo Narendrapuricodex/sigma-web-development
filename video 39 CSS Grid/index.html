@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Understanding</title>
+    <style>
+        .container{
+            border: 2px solid blue;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr 1fr 1fr;
+            width: 40vw;
+            height: 60vh;
+            gap: 2vw 5vh;
+
+            
+
+        }
+        .item{
+            border: 2px solid red;
+            /* height: 55px; */
+        }
+
+        .item-1{
+            /* grid-row: 1/2;
+            grid-column: 1/2; */
+            align-self: center;
+            justify-self: center;
+            background-color: red;
+        }
+
+        .item-4{
+            background-color: red;
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+
+        .container2{
+            background-color: green;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: [pahla] 100px [dusra] 100px [t] auto;
+            grid-template-rows: 100px 100px 100px;
+        }
+
+        .it{
+            border: 2px solid red;            
+        }
+
+        .it-4{
+            grid-row: 1/2;
+            grid-column: pahla/dusra;
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item-4">4</div>
+        <div class="item">5</div>
+    </div>
+
+
+    <div class="container2">
+        <div class="it">1</div>
+        <div class="it">2</div>
+        <div class="it">3</div>
+        <div class="it it-4">4</div>
+        <div class="it">5</div>
+    </div>
+</body>
+</html>
